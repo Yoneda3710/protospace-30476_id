@@ -4,6 +4,5 @@ class UsersController < ApplicationController
     @user = User.find(params[:id])
     #@name = current_user.nickname
     @prototypes = @user.prototypes
-
   end
 end
